@@ -85,11 +85,6 @@ void resizeGL(int w, int h) {
   glMatrixMode(GL_MODELVIEW);
 }
 
-float randomf() {
-  float mmm = 2147483647;
-  return rand()/mmm;
-}
-
 void drawBoard() {
   int i, j;
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
